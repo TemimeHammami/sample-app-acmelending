@@ -4,14 +4,13 @@ export const serverProd = {
     },
     application: {
           secure: true,
-          host: 'demo.zoomdata.com',
-          port: 443,
+          host: '10.21.62.49',
+          port: 8080,
           path: '/zoomdata'
     },
     oauthOptions: {
-        client_id: "QWNtZUxlbmRpbmcxNDcxODkxNjA3NTI4MjZkNzE1YzMtOWUwMy00MzYxLWJiN2ItMzQ5YWUyYWY4MGQ4",
-        redirect_uri: "https://apps.zoomdata.com/acmelending",
-        auth_uri: "https://demo.zoomdata.com/zoomdata/oauth/authorize",
+        redirect_uri: "10.21.62.49:8080/acmelending",
+        auth_uri: "10.21.62.49:8080/zoomdata",
         scope: ['read']
     }
 };
